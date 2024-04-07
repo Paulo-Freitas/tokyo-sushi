@@ -133,18 +133,36 @@ body{
     font-size: 20px;
     transition: opacity 0.3s ease-in-out;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .redes-sociais li a:hover{
     opacity: 0.8;
+   
 }
 
 .redes-sociais .whatsapp{
     background-color: #25d366;
 }
 
+.redes-sociais .whatsapp img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+}
+
 .redes-sociais .ifood{
     background-color: #ea1d2c;
+}
+
+.redes-sociais .ifood img{
+    width: 22px;
+    height: 22px;
+    margin: 0px 5px;
+    border: 3px solid #ffffff;
+    border-radius: 50px;
 }
 
 .redes-sociais .instagram{
@@ -155,7 +173,30 @@ body{
   );
 }
 
+.redes-sociais .instagram img{
+    width: 22px;
+    height: 22px;
+    margin: 0px 10px;
+   }
+
 .redes-sociais .telefone{
     background-color: #00ffff;
 }
+
+.redes-sociais .telefone img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+}
+
+.redes-sociais .cardapio{
+    background-color: #fcb045;
+}
+
+.redes-sociais .cardapio img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 10px;
+}
+
 
