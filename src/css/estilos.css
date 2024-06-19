@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap%22');
 
 body{
-    background: linear-gradient(#000000,#b90505);
+    background:#b50505;
     min-height: 150%;
    
     font-family: "Kumbh Sand", sans-serif;
-    color: #000000;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,9 +15,9 @@ body{
 }
 
 .cartao{
-    background-color: #ffffff;
+    background-color: #000000;
     width: 370px;
-    border: 7px solid #000000;
+    border: 7px solid #ffffff;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -36,7 +36,7 @@ body{
     width: 96px;
     height: 96px;
     border-radius: 50px;
-    border: 5px solid #000000;
+    border: 5px solid #ffffff;
 }
 
 .cartao .minhas-informacoes .nome{
@@ -45,50 +45,14 @@ body{
 
 .cartao .minhas-informacoes .endereco{
     font-size: 20px;
-    color: #000000;
-}
-
-
-.cartao .minhas-informacoes .endereco img{
-    border: none;
-    width: 39px;
-    height: 30px;
-    margin: 0px -11px -5px -10px;
+    color: #ffffff;
 }
 
 .cartao .conteudo{
     margin-top: 15px;
 }
 
-.cartao .abas{
-    display: flex;
-}
 
-.cartao .abas .aba{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-}
-
-
-.abas img{
-    width: 30px;
-}
-
-.cartao .abas .aba.selecionado{
-    background-color: #ffffff;
-}
-
-.cartao .informacoes-abas{
-    background-color: #ffffff;
-}
-
-.cartao .abas .aba:hover{
-    background-color: #ffffff;
-}
 
 .informacoes-abas .informacao{
     min-height: 260px;
@@ -102,7 +66,19 @@ body{
 
 .informacoes-abas .sub-titulo{
     font-size: 22px;
-    margin-bottom: 25px;
+    margin: 10px 0px -10px 0px;
+    text-align: center;
+}
+
+.informacoes-abas .sub-titulo-restaurante{
+    font-size: 22px;
+    margin: -10px 0px -10px 0px;
+    text-align: center;
+}
+
+.informacoes-abas .sub-titulo-funcionamento{
+    font-size: 20px;
+    margin: -10px 0px 10px 0px;
     text-align: center;
 }
 
@@ -114,12 +90,12 @@ body{
 }
 
 .selecionado .horarios{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .selecionado .horarios span{
     color: #d62f06;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 
@@ -154,11 +130,11 @@ body{
 
 .desconto{
     border-radius: 10px;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     text-align: center;
     font-size: 20px;
-    color: #f3f3f3;
-    background-color: #000000;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 .desconto span{
@@ -166,7 +142,9 @@ body{
 }
 
 .redes-sociais .whatsapp{
-    background-color: #25d366;
+    background-color: #8f0606;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
 }
 
 .redes-sociais .whatsapp img{
@@ -176,7 +154,9 @@ body{
 }
 
 .redes-sociais .ifood{
-    background-color: #ea1d2c;
+    background-color: #8f0606;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
 }
 
 .redes-sociais .ifood img{
@@ -188,11 +168,9 @@ body{
 }
 
 .redes-sociais .instagram{
-    background: #833ab4;
-  background: linear-gradient(
-    to right,
-    #833ab4,#fd1d1d,#fcb045
-  );
+    background: #8f0606;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
 }
 
 .redes-sociais .instagram img{
@@ -203,7 +181,9 @@ body{
    }
 
 .redes-sociais .telefone{
-    background-color: #00ffff;
+    background-color: #8f0606;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
 }
 
 .redes-sociais .telefone img{
@@ -214,7 +194,9 @@ body{
 }
 
 .redes-sociais .cardapio{
-    background-color: #fcb045;
+    background-color: #8f0606;
+    border-radius: 5px;
+    border: 2px solid #ffffff;
 }
 
 .redes-sociais .cardapio img{
